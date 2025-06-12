@@ -127,7 +127,76 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionMovie.cpp" />
+    <ClCompile Include="AddMovieCommand.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="BuyTicketCommand.cpp" />
     <ClCompile Include="CinemaSystem.cpp" />
+    <ClCompile Include="CloseHaulCommand.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="CommandFactory.cpp" />
+    <ClCompile Include="DocumentaryMovie.cpp" />
+    <ClCompile Include="DramaMovie.cpp" />
+    <ClCompile Include="ExitCommand.cpp" />
+    <ClCompile Include="Hall.cpp" />
+    <ClCompile Include="ListHistoryCommand.cpp" />
+    <ClCompile Include="ListMoviesCommand.cpp" />
+    <ClCompile Include="ListTicketsCommand.cpp" />
+    <ClCompile Include="ListUserHistoryCommand.cpp" />
+    <ClCompile Include="ListUsersCommand.cpp" />
+    <ClCompile Include="ListUserTicketsCommand.cpp" />
+    <ClCompile Include="LoginCommand.cpp" />
+    <ClCompile Include="LogoutCommand.cpp" />
+    <ClCompile Include="Movie.cpp" />
+    <ClCompile Include="myString.cpp" />
+    <ClCompile Include="OpenHaulCommand.cpp" />
+    <ClCompile Include="PrintSeatsCommand.cpp" />
+    <ClCompile Include="RateMovieCommand.cpp" />
+    <ClCompile Include="RegisterCommand.cpp" />
+    <ClCompile Include="RegularUser.cpp" />
+    <ClCompile Include="RemoveMovieCommand.cpp" />
+    <ClCompile Include="RemoveUserCommand.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="Ticket.cpp" />
+    <ClCompile Include="UpdateMovieHaul.cpp" />
+    <ClCompile Include="UpdateMovieTitleCommand.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActionMovie.h" />
+    <ClInclude Include="AddMovieCommand.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="BuyTicketCommand.h" />
+    <ClInclude Include="CloseHaulCommand.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandFactory.h" />
+    <ClInclude Include="DocumentaryMovie.h" />
+    <ClInclude Include="DramaMovie.h" />
+    <ClInclude Include="ExitCommand.h" />
+    <ClInclude Include="Hall.h" />
+    <ClInclude Include="ListHistoryCommand.h" />
+    <ClInclude Include="ListMoviesCommand.h" />
+    <ClInclude Include="ListTicketsCommand.h" />
+    <ClInclude Include="ListUserHistoryCommand.h" />
+    <ClInclude Include="ListUsersCommand.h" />
+    <ClInclude Include="ListUserTicketsCommand.h" />
+    <ClInclude Include="LoginCommand.h" />
+    <ClInclude Include="LogoutCommand.h" />
+    <ClInclude Include="Movie.h" />
+    <ClInclude Include="myString.h" />
+    <ClInclude Include="OpenHaulCommand.h" />
+    <ClInclude Include="PrintSeatsCommand.h" />
+    <ClInclude Include="RateMovieCommand.h" />
+    <ClInclude Include="RegisterCommand.h" />
+    <ClInclude Include="RegularUser.h" />
+    <ClInclude Include="RemoveMovieCommand.h" />
+    <ClInclude Include="RemoveUserCommand.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="Ticket.h" />
+    <ClInclude Include="UpdateMovieHaul.h" />
+    <ClInclude Include="UpdateMovieTitleCommand.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Vector.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

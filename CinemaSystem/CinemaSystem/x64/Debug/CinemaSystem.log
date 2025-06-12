@@ -1,2 +1,404 @@
-﻿  CinemaSystem.cpp
+﻿  ActionMovie.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ActionMovie.cpp')
+  
+  AddMovieCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'AddMovieCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(32,23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(33,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(33,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(33,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(52,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(52,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(52,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(73,90): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(73,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\AddMovieCommand.cpp(73,60): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'AddMovieCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  Admin.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Admin.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'Admin.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\User.h(10,19):
+          see reference to class template instantiation 'Vector<myString>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(76,28):
+          while compiling class template member function 'Vector<myString>::Vector(void)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\User.h(14,72):
+              see the first reference to 'Vector<myString>::Vector' in 'User::User'
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<myString>::Vector(size_t)'
+  
+  BuyTicketCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'BuyTicketCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\BuyTicketCommand.cpp(15,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\BuyTicketCommand.cpp(16,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\BuyTicketCommand.cpp(17,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'BuyTicketCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  CloseHaulCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'CloseHaulCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'CloseHaulCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  CommandFactory.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'CommandFactory.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'CommandFactory.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  DocumentaryMovie.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'DocumentaryMovie.cpp')
+  
+  DramaMovie.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'DramaMovie.cpp')
+  
+  ExitCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ExitCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ExitCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListHistoryCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListHistoryCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListHistoryCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListMoviesCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListMoviesCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\ListMoviesCommand.cpp(15,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListMoviesCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListTicketsCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListTicketsCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListTicketsCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListUserHistoryCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListUserHistoryCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListUserHistoryCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListUserTicketsCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListUserTicketsCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListUserTicketsCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  ListUsersCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'ListUsersCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'ListUsersCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  LoginCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'LoginCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\LoginCommand.cpp(18,25): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'LoginCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  LogoutCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'LogoutCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'LogoutCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  Movie.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Movie.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'Movie.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(14,23):
+          see reference to class template instantiation 'Vector<Vector<bool>>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(76,28):
+          while compiling class template member function 'Vector<Vector<bool>>::Vector(void)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.cpp(6,1):
+              see the first reference to 'Vector<Vector<bool>>::Vector' in 'Movie::Movie'
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<Vector<bool>>::Vector(size_t)'
+  
+  OpenHaulCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'OpenHaulCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\OpenHaulCommand.cpp(6,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\OpenHaulCommand.cpp(6,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'OpenHaulCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  PrintSeatsCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'PrintSeatsCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'PrintSeatsCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  Generating Code...
+  Compiling...
+  RateMovieCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'RateMovieCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\RateMovieCommand.cpp(11,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'RateMovieCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  RegisterCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'RegisterCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'RegisterCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  RemoveMovieCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'RemoveMovieCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\RemoveMovieCommand.cpp(15,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'RemoveMovieCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  RemoveUserCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'RemoveUserCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'RemoveUserCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  System.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'System.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\System.cpp(310,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'System.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  UpdateMovieHaul.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'UpdateMovieHaul.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\UpdateMovieHaul.cpp(15,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\UpdateMovieHaul.cpp(16,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'UpdateMovieHaul.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  UpdateMovieTitleCommand.cpp
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Movie.h(30,29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'UpdateMovieTitleCommand.cpp')
+  
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'UpdateMovieTitleCommand.cpp')
+      D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(81,36):
+      the template instantiation context (the oldest one first) is
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,36):
+          see reference to class template instantiation 'Vector<bool>' being compiled
+          D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Vector.hpp(79,42):
+          while compiling class template member function 'Vector<bool>::Vector(size_t)'
+              D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.h(14,22):
+              see the first reference to 'Vector<bool>::Vector' in 'Hall::Hall'
+  
+  Generating Code...
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\System.cpp(152,1): warning C4715: 'System::getMovieNameById': not all control paths return a value
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\System.cpp(165,1): warning C4715: 'System::getHallById': not all control paths return a value
   CinemaSystem.vcxproj -> D:\github_rep\CinemaSystem\CinemaSystem\x64\Debug\CinemaSystem.exe
