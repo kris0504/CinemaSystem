@@ -4,7 +4,8 @@
 #include "Hall.h"
 class Movie {
 protected:
-	static size_t id; // Unique identifier for the movie
+	static size_t nextid; // Unique identifier for the movie
+	size_t id;
     myString title;
     double rating;
     int rateCount;
@@ -28,7 +29,7 @@ public:
 	int getDurationMinutes() const { return durationMinutes; }
 	int getReleaseYear() const { return releaseYear; }
 	myString getGenre() const { return genre; }
-	int getHallId() const { return ; }
+	int getHallId() const { return hallId; }
 	int getId() const { return id; } // Returns the unique identifier for the movie
 	myString getDate() const { return date; }
 	myString getStartTime() const { return startTime; }

@@ -1,12 +1,9 @@
 #include "Admin.h"
 
 
-Admin::Admin()
+Admin::Admin() : User("Admin","0000",0,true)
 {
-	isAdmin = true;
-	password = "0000";
-	name = "Admin";
-	balance = 0;
+	id = 0;
 }
 
 void Admin::addHall(int rows, int cols)

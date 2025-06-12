@@ -1,10 +1,8 @@
 #include "RegularUser.h"
 
-RegularUser::RegularUser(const myString& name, const myString& password, double balance) {
-	isAdmin = false;
-	this->name = name;
-	this->password = password;
-	this->balance = balance;
+RegularUser::RegularUser(const myString& name, const myString& password, double balance):User(name,password,balance) {
+	
+	
 }
 
 void RegularUser::buyTicket(int movieId, int row, int col)

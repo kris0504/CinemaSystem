@@ -10,6 +10,7 @@ D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\DocumentaryMovie.cpp;D:\git
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\DramaMovie.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\DramaMovie.obj
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\ExitCommand.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\ExitCommand.obj
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\Hall.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\Hall.obj
+D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\InvalidCommand.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\InvalidCommand.obj
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\ListHistoryCommand.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\ListHistoryCommand.obj
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\ListMoviesCommand.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\ListMoviesCommand.obj
 D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\ListTicketsCommand.cpp;D:\github_rep\CinemaSystem\CinemaSystem\CinemaSystem\x64\Debug\ListTicketsCommand.obj

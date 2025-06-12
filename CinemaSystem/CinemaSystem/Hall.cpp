@@ -1,5 +1,5 @@
 #include "Hall.h"
-size_t Hall::id = 0;
+size_t Hall::nextid = 0;
 
 void Hall::reserveSeat(int row, int col)
 {
@@ -19,7 +19,7 @@ void Hall::releaseSeat(int row, int col)
 
 bool Hall::isSeatFree(int row, int col) const
 {
-    return seats[row][col];
+    return !seats[row][col];
 }
 
 void Hall::printLayout() const

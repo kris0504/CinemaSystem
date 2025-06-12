@@ -2,7 +2,8 @@
 #include "myString.h"
 class Hall {
 private:
-    static size_t id;
+    static size_t nextid;
+    size_t id;
     int rows;
     int cols;
     Vector<Vector<bool>> seats;

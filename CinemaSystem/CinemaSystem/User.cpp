@@ -1,5 +1,5 @@
 #include "User.h"
-size_t User::id = 99;
+size_t User::nextid = 1;
 
 Vector<myString>& User::getHistory()
 {

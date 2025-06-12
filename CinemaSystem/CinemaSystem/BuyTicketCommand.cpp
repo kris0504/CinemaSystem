@@ -16,6 +16,7 @@ void BuyTicketCommand::execute(System& sys, User*& currentUser, const Vector<myS
 	int row = command[2].toSizeT();
 	int col = command[3].toSizeT();
 	if (sys.buyTicket(movieId, row, col, currentUser)) {
+
 		std::cout << "Ticket purchased successfully." << std::endl;
 	}
 	else {

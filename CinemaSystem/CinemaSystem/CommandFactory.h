@@ -20,6 +20,7 @@
 #include "ListUsersCommand.h"
 #include "RemoveUserCommand.h"
 #include "PrintSeatsCommand.h"
+#include "InvalidCommand.h"
 class System;
 class User;
     class CommandFactory {

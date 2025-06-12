@@ -1,7 +1,10 @@
 
 #include <iostream>
-
+#include "System.h"
 int main()
 {
-	std::cout << "Hello World!\n";
+	System sys;
+	//sys.loadData();
+	std::cout << "Welcome to the Cinema System!" << std::endl;
+	sys.run();
 }

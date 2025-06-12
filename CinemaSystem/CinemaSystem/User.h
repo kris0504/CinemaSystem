@@ -2,11 +2,12 @@
 #include "myString.h"
 class User {
 protected:
-   static size_t id;
-    myString name;
-    myString password;
-    double balance;
-    bool isAdmin;
+	static size_t nextid;
+	size_t id;
+	myString name;
+	myString password;
+	double balance;
+	bool isAdmin;
 	Vector<myString> history;
 public:
 	User() = default; // Default constructor
@@ -16,12 +17,12 @@ public:
 	}
 	myString getPassword() const { return password; }
 	myString getName() const { return name; }
-    Vector<myString>& getHistory();
+	Vector<myString>& getHistory();
 	void addBalance(double m);
 	size_t getId() const { return id; }
-    virtual void printMenu() const = 0;
-    bool isAdminUser() const;
-    virtual ~User() = default;
+	virtual void printMenu() const = 0;
+	bool isAdminUser() const;
+	virtual ~User() = default;
 };
 
 

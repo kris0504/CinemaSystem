@@ -139,6 +139,7 @@
     <ClCompile Include="DramaMovie.cpp" />
     <ClCompile Include="ExitCommand.cpp" />
     <ClCompile Include="Hall.cpp" />
+    <ClCompile Include="InvalidCommand.cpp" />
     <ClCompile Include="ListHistoryCommand.cpp" />
     <ClCompile Include="ListMoviesCommand.cpp" />
     <ClCompile Include="ListTicketsCommand.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="DramaMovie.h" />
     <ClInclude Include="ExitCommand.h" />
     <ClInclude Include="Hall.h" />
+    <ClInclude Include="InvalidCommand.h" />
     <ClInclude Include="ListHistoryCommand.h" />
     <ClInclude Include="ListMoviesCommand.h" />
     <ClInclude Include="ListTicketsCommand.h" />

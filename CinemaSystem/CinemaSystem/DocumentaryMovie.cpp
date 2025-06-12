@@ -19,6 +19,7 @@ DocumentaryMovie::DocumentaryMovie(myString title, int durationMinutes, int rele
 	if (title.getSize() == 0 || genre.getSize() == 0 || date.getSize() == 0 || startTime.getSize() == 0 || endTime.getSize() == 0) {
 		throw std::invalid_argument("Title, genre, date, start time, and end time cannot be empty.");
 	}
+	
 	price = 5 + (isBasedOnTrueEvents * 3);
 }
 

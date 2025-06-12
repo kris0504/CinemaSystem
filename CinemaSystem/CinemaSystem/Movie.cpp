@@ -1,5 +1,5 @@
 #include "Movie.h"
-size_t Movie::id =100;
+size_t Movie::nextid = 0;
 
 Movie::Movie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime) : title(title), rating(0), durationMinutes(durationMinutes), releaseYear(releaseYear),
 genre(genre), hallId(hallId), date(date), startTime(startTime), endTime(endTime) 
@@ -11,8 +11,7 @@ genre(genre), hallId(hallId), date(date), startTime(startTime), endTime(endTime)
 
 bool Movie::isSeatAvailable(int row, int col) const
 {
-	
-	return false;
+	return hall.isSeatFree(row, col);
 }
 
 void Movie::addRating(double rate)

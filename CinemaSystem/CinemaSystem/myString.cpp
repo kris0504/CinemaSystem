@@ -149,8 +149,15 @@ size_t myString::getSize() const
 
 size_t myString::toSizeT() const
 {
+	if (_size == 0 || _data[0] == '\0')
+		return 0;
+	
     size_t result = 0;
     for (size_t i = 0; _data[i] != '\0'; i++) {
+        if (_data[i] < '0' || _data[i] > '9') {
+            throw std::invalid_argument("Invalid string for conversion to size_t");
+            return 0; // invalid string for conversion to size_t
+        }
         if (_data[i] < '0' || _data[i] > '9')
             return 0;
         result = result * 10 + (_data[i] - '0');

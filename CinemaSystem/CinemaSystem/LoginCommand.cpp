@@ -8,14 +8,14 @@ void LoginCommand::execute(System& sys, User*& currentUser, const Vector<myStrin
 	}
 
 	if (command.getSize() != 3) {
-		std::cout << "Usage: login <username> <password>" << std::endl;
+		std::cout << "Usage: login <id> <password>" << std::endl;
 		return;
 	}
 
-	size_t username = command[1].toSizeT();
+	size_t id = command[1].toSizeT();
 	myString password = command[2];
 
-	User* user = sys.login(username,password);
+	User* user = sys.login(id,password);
 	if (user == nullptr) {
 		std::cout << "Invalid username or password." << std::endl;
 		return;

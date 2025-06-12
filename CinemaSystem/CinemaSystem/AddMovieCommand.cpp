@@ -18,8 +18,8 @@ void AddMovieCommand::execute(System& sys, User*& currentUser, const Vector<mySt
 
 	if (genre == "Action")
 	{
-		if (command.getSize() != 11) {
-			std::cout << "Usage: addmovie Action <title> <rating> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <actionIntensity>" << std::endl;
+		if (command.getSize() != 10) {
+			std::cout << "Usage: addmovie Action <title> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <actionIntensity>" << std::endl;
 			return;
 		}
 		myString title = command[2];
@@ -31,16 +31,16 @@ void AddMovieCommand::execute(System& sys, User*& currentUser, const Vector<mySt
 		myString endTime = command[8];
 		int actionIntensity = command[9].toSizeT();
 		ActionMovie* newMovie = new ActionMovie(title, duration, releaseYear, genre, hallId, date, startTime, endTime, actionIntensity);
-		Vector <Movie*> movies = sys.getMovies();
+		Vector <Movie*>& movies = sys.getMovies();
 		movies.push_back(newMovie);
 		Hall hall = sys.getHallById(hallId);
 		hall.getMovieIds().push_back(newMovie->getId());
-		std::cout << "Action movie added successfully: " << title << " (" << duration << " minutes)" << std::endl;
+		std::cout << "Action movie added successfully: " << title << " (" << duration << " minutes) Id: " <<newMovie->getId()<< std::endl;
 		return;
 	}
 	else if (genre == "Drama") {
-		if (command.getSize() != 11) {
-			std::cout << "Usage: addmovie Drama <title> <rating> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <hasComedyElement>" << std::endl;
+		if (command.getSize() != 10) {
+			std::cout << "Usage: addmovie Drama <title> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <hasComedyElement>" << std::endl;
 			return;
 		}
 		myString title = command[2];
@@ -52,17 +52,17 @@ void AddMovieCommand::execute(System& sys, User*& currentUser, const Vector<mySt
 		myString endTime = command[8];
 		bool hasComedyElement = command[10].toSizeT();
 		Movie* newMovie = new DramaMovie(title, duration, releaseYear, genre, hallId, date, startTime, endTime, hasComedyElement);
-		Vector <Movie*> movies = sys.getMovies();
+		Vector <Movie*>& movies = sys.getMovies();
 		movies.push_back(newMovie);
 		Hall hall = sys.getHallById(hallId);
 		hall.getMovieIds().push_back(newMovie->getId());
-		std::cout << "Drama movie added successfully: " << title << " (" << duration << " minutes)" << std::endl;
+		std::cout << "Drama movie added successfully: " << title << " (" << duration << " minutes) Id: " << newMovie->getId() << std::endl;
 		return;
 
 	}
 	else if (genre == "Documentary") {
-		if (command.getSize() != 12) {
-			std::cout << "Usage: addmovie Documentary <title> <rating> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <theme> <isBasedOnTrueEvents>" << std::endl;
+		if (command.getSize() != 11) {
+			std::cout << "Usage: addmovie Documentary <title> <duration> <releaseYear> <hallId> <date> <startTime> <endTime> <theme> <isBasedOnTrueEvents>" << std::endl;
 			return;
 		}
 		myString title = command[2];
@@ -75,11 +75,11 @@ void AddMovieCommand::execute(System& sys, User*& currentUser, const Vector<mySt
 		myString theme = command[9];
 		bool isBasedOnTrueEvents = command[10].toSizeT();
 		DocumentaryMovie* newMovie = new DocumentaryMovie(title, duration, releaseYear, genre, hallId, date, startTime, endTime, theme, isBasedOnTrueEvents);
-		Vector <Movie*> movies = sys.getMovies();
+		Vector <Movie*>& movies = sys.getMovies();
 		movies.push_back(newMovie);
 		Hall hall = sys.getHallById(hallId);
 		hall.getMovieIds().push_back(newMovie->getId());
-		std::cout << "Documentary movie added successfully: " << title << " (" << duration << " minutes)" << std::endl;
+		std::cout << "Documentary movie added successfully: " << title << " (" << duration << " minutes) Id: " << newMovie->getId() << std::endl;
 		return;
 	}
 	else {

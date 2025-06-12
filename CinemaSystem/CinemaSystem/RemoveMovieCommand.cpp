@@ -13,7 +13,7 @@ void RemoveMovieCommand::execute(System& sys, User*& currentUser, const Vector<m
 	}
 
 	int movieId = command[1].toSizeT();
-	if (!sys.removeMovie(movieId)) {
+	if (sys.removeMovie(movieId)) {
 		std::cout << "Movie removed successfully." << std::endl;
 	}
 	else {

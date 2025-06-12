@@ -8,7 +8,7 @@ void UpdateMovieTitleCommand::execute(System& sys, User*& currentUser, const Vec
 	}
 
 	if (command.getSize() != 3) {
-		std::cout << "Usage: updateMovieTitle <oldTitle> <newTitle>" << std::endl;
+		std::cout << "Usage: updateMovieTitle <movieId> <newTitle>" << std::endl;
 		return;
 	}
 

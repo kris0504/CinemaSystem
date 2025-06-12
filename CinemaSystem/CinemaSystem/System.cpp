@@ -1,5 +1,6 @@
 #include "System.h"
 #include "RegularUser.h"
+#include "Admin.h"
 #include <ctime>
 #include <iomanip>
 #include <sstream>
@@ -85,7 +86,7 @@ bool System::buyTicket(int movieId, int row, int col, User* currentUser)
 			}
 			Ticket ticket(movies[i]->getId(), row, col,movies[i]->getPrice(), getCurrentDate(), getCurrentTime());
 			static_cast<RegularUser*>(currentUser)->getTickets().push_back(ticket);
-			//movies[i]->reserveSeat(row, col);
+			movies[i]->getHall().reserveSeat(row, col);
 			std::cout << "Ticket purchased successfully." << std::endl;
 			return true;
 		}
@@ -117,6 +118,7 @@ bool System::removeMovie(size_t movieId)
 	Movie* movie = nullptr;
 	for (size_t i = 0; i < movies.getSize(); ++i) {
 		if (movies[i]->getId() == movieId) {
+			
 			movie = movies[i];
 			break;
 		}
@@ -138,6 +140,14 @@ bool System::removeMovie(size_t movieId)
 			}
 		}
 	}
+	for (size_t i = 0; i < movies.getSize(); ++i) {
+		if (movies[i]->getId() == movieId) {
+			movies.remove(i);
+			
+			break;
+		}
+	}
+	delete movie;
 	return true;
 
 }
@@ -161,7 +171,7 @@ Hall& System::getHallById(size_t id)
 			return halls[i];
 		}
 	}
-
+	throw std::invalid_argument("Hall with the given ID does not exist.");
 }
 
 Vector<Movie*>& System::getMovies()
@@ -277,8 +287,13 @@ bool System::isHallFree(int hallId, const myString& date, const myString& startT
 	}
 	return true;
 }
+System::System() {
+	User* admin = new Admin();
+	users.push_back(admin);
 
+}
 bool System::updateMovieHaul(int movieId, int newHallId) {
+	Hall& hall = getHallById(newHallId);
 	for (size_t i = 0; i < movies.getSize(); ++i) {
 		if (movies[i]->getId() == movieId) {
 			myString date = movies[i]->getDate();
@@ -296,7 +311,7 @@ bool System::updateMovieHaul(int movieId, int newHallId) {
 				std::cout << "New hall is not free at the same time." << std::endl;
 				return false;
 			}
-
+			hall.getMovieIds().push_back(movieId);
 			movies[i]->setHallId(newHallId);
 			return true;
 		}
@@ -332,23 +347,31 @@ void System::run()
 	Vector<myString> command;
 	User* currentUser = nullptr;
 	char buffer[1024];
+	
+		while (true)
+		{
+			try {
+			std::cout << "> ";
+			std::cin.getline(buffer, 1024);
+			input = myString(buffer);
 
-	while (true)
-	{
-		std::cout << "> ";
-		std::cin.getline(buffer, 1024);
-		input = myString(buffer);
-
-		command = input.getWords();
-		if (command[0] == "exit") {
-			saveToFile();
-			break;
+			command = input.getWords();
+			if (command[0] == "exit") {
+				saveToFile();
+				break;
+			}
+			myString test = command[1];
+			Command* c = CommandFactory::createCommand(*this, currentUser, command);
+			c->execute(*this, currentUser, command);
+			delete c;
 		}
-		myString test = command[1];
-		Command* c = CommandFactory::createCommand(*this, currentUser, command);
-		c->execute(*this, currentUser, command);
-		delete c;
-	}
+		catch (const std::exception& e) {
+			std::cout << "Caught exception: " << e.what() << std::endl;
+		}
+		}
+	
+
+
 }
 void System::saveToFile()
 {

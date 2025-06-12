@@ -16,9 +16,11 @@ void RegisterCommand::execute(System& sys, User*& currentUser, const Vector<mySt
 	myString password = command[2];
 
 	
+
 	User* newUser = new RegularUser(name,password,0);
-	sys.getUsers().push_back(newUser);
+	Vector<User*>& userss = sys.getUsers();
+	userss.push_back(newUser);
 	currentUser = newUser;
 
-	std::cout << "Registration successful! Welcome, " << name << "!" << std::endl;
+	std::cout << "Registration successful! Welcome, " << name << "! Id: "<< newUser->getId() << std::endl;
 }

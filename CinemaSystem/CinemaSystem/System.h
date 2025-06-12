@@ -12,6 +12,7 @@ private:
     int loggedInUserId;
 
 public:
+    System();
     User* login(int id, myString password);
     void addMovie(Movie* movie);
 	Hall& getHallById(size_t id) ;
