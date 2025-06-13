@@ -1,7 +1,7 @@
 #include "DocumentaryMovie.h"
 
-DocumentaryMovie::DocumentaryMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, myString theme, bool isBasedOnTrueEvents)
-	: Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime), theme(theme), isBasedOnTrueEvents(isBasedOnTrueEvents)
+DocumentaryMovie::DocumentaryMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, myString theme, bool isBasedOnTrueEvents, int rows, int cols)
+	: Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime,rows,cols), theme(theme), isBasedOnTrueEvents(isBasedOnTrueEvents)
 {
 
 	if (durationMinutes <= 0) {

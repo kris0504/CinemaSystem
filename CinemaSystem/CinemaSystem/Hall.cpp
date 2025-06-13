@@ -1,26 +1,26 @@
 #include "Hall.h"
-size_t Hall::nextid = 0;
+size_t Hall::nextid = 1;
 
-void Hall::reserveSeat(int row, int col)
-{
-	if (row < 0 || row >= rows || col < 0 || col >= cols) {
-		throw std::out_of_range("Invalid seat position");
-	}
-	seats[row][col] = true; // Mark the seat as reserved
-}
-
-void Hall::releaseSeat(int row, int col)
-{
-	if (row < 0 || row >= rows || col < 0 || col >= cols) {
-		throw std::out_of_range("Invalid seat position");
-	}
-	seats[row][col] = false; // Mark the seat as free
-}
-
-bool Hall::isSeatFree(int row, int col) const
-{
-    return !seats[row][col];
-}
+//void Hall::reserveSeat(int row, int col)
+//{
+//	if (row < 0 || row >= rows || col < 0 || col >= cols) {
+//		throw std::out_of_range("Invalid seat position");
+//	}
+//	seats[row][col] = true; // Mark the seat as reserved
+//}
+//
+//void Hall::releaseSeat(int row, int col)
+//{
+//	if (row < 0 || row >= rows || col < 0 || col >= cols) {
+//		throw std::out_of_range("Invalid seat position");
+//	}
+//	seats[row][col] = false; // Mark the seat as free
+//}
+//
+//bool Hall::isSeatFree(int row, int col) const
+//{
+//    return !seats[row][col];
+//}
 
 void Hall::printLayout() const
 {

@@ -1,10 +1,10 @@
 #include "DramaMovie.h"
 
-DramaMovie::DramaMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, bool hasComedyElements):
-	Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime), hasComedyElements(hasComedyElements)
+DramaMovie::DramaMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, bool hasComedyElements, int rows, int cols) :
+	Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime, rows, cols), hasComedyElements(hasComedyElements)
 
 {
-	
+
 	if (durationMinutes <= 0) {
 		throw std::invalid_argument("Duration must be a positive integer.");
 	}
@@ -25,7 +25,7 @@ DramaMovie::DramaMovie(myString title, int durationMinutes, int releaseYear, myS
 
 double DramaMovie::calculatePrice() const
 {
-    return 0.0;
+	return 0.0;
 }
 
 void DramaMovie::printDetails() const
@@ -34,5 +34,5 @@ void DramaMovie::printDetails() const
 
 myString DramaMovie::getType() const
 {
-    return "Drama";
+	return "Drama";
 }

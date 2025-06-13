@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ActionMovie.cpp" />
+    <ClCompile Include="addBalanceCommand.cpp" />
     <ClCompile Include="AddMovieCommand.cpp" />
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="BuyTicketCommand.cpp" />
@@ -165,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActionMovie.h" />
+    <ClInclude Include="addBalanceCommand.h" />
     <ClInclude Include="AddMovieCommand.h" />
     <ClInclude Include="Admin.h" />
     <ClInclude Include="BuyTicketCommand.h" />

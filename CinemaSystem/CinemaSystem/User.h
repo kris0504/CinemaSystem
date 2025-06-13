@@ -13,12 +13,14 @@ public:
 	User() = default; // Default constructor
 	User(const myString& name, const myString& password, double balance, bool isAdmin = false)
 		: name(name), password(password), balance(balance), isAdmin(isAdmin) {
-		id++;
+		id = nextid++;
+
 	}
 	myString getPassword() const { return password; }
 	myString getName() const { return name; }
 	Vector<myString>& getHistory();
 	void addBalance(double m);
+	double getBalance() const { return balance; }
 	size_t getId() const { return id; }
 	virtual void printMenu() const = 0;
 	bool isAdminUser() const;

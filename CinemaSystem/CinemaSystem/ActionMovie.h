@@ -6,7 +6,7 @@ private:
 
 public:
 	ActionMovie() = default;
-    ActionMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, int actionIntensity);
+    ActionMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, int actionIntensity, int rows, int cols);
      myString getType() const override; // Returns the type of the movie (e.g., "Action", "Drama", etc.)
 
     double calculatePrice() const override;

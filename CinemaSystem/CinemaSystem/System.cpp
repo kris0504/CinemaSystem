@@ -17,9 +17,10 @@ myString getCurrentDate() {
 
 	std::ostringstream oss;
 	oss << std::setfill('0')
-		<< std::setw(4) << (1900 + localTime.tm_year) << '-'
-		<< std::setw(2) << (localTime.tm_mon + 1) << '-'
-		<< std::setw(2) << localTime.tm_mday;
+		<< std::setw(2) << localTime.tm_mday << '.' << std::setw(2) << (localTime.tm_mon + 1) << '.'
+		<< std::setw(4) << (1900 + localTime.tm_year);
+		
+		
 
 	return myString(oss.str().c_str());
 }
@@ -43,18 +44,23 @@ myString getCurrentTime() {
 }
 User* System::login(int id, myString password)
 {
+
 	User* currentUser = getUserById(id);
+
 	if (!currentUser) {
 		std::cout << "User with ID " << id << " does not exist." << std::endl;
 		return nullptr;
 	}
 	if (id == 0 && currentUser->isAdminUser() && password == currentUser->getPassword()) {
+
 		return currentUser;
 	}
 
 
-	if (currentUser->getPassword() == password)
+	if (currentUser->getPassword() == password) {
+		checkTickets(currentUser);
 		return currentUser;
+	}
 	std::cout << "Invalid password for user with ID " << id << "." << std::endl;
 	return nullptr;
 }
@@ -84,9 +90,15 @@ bool System::buyTicket(int movieId, int row, int col, User* currentUser)
 				std::cout << "Seat is not available." << std::endl;
 				return false;
 			}
-			Ticket ticket(movies[i]->getId(), row, col,movies[i]->getPrice(), getCurrentDate(), getCurrentTime());
+			if (static_cast<RegularUser*>(currentUser)->getBalance() < movies[i]->getPrice()) {
+				std::cout << "Not enough balance to buy ticket." << std::endl;
+				return false;
+			}
+			Ticket ticket(movies[i]->getId(), row, col, movies[i]->getPrice(), getCurrentDate(), getCurrentTime(),movies[i]->getTitle(),movies[i]->getHallId());
 			static_cast<RegularUser*>(currentUser)->getTickets().push_back(ticket);
-			movies[i]->getHall().reserveSeat(row, col);
+
+			static_cast<RegularUser*>(currentUser)->addBalance(-movies[i]->getPrice());
+			movies[i]->reserveSeat(row, col);
 			std::cout << "Ticket purchased successfully." << std::endl;
 			return true;
 		}
@@ -118,7 +130,7 @@ bool System::removeMovie(size_t movieId)
 	Movie* movie = nullptr;
 	for (size_t i = 0; i < movies.getSize(); ++i) {
 		if (movies[i]->getId() == movieId) {
-			
+
 			movie = movies[i];
 			break;
 		}
@@ -143,7 +155,7 @@ bool System::removeMovie(size_t movieId)
 	for (size_t i = 0; i < movies.getSize(); ++i) {
 		if (movies[i]->getId() == movieId) {
 			movies.remove(i);
-			
+
 			break;
 		}
 	}
@@ -162,6 +174,19 @@ myString System::getMovieNameById(int id) const
 }
 void System::addMovie(Movie* movie)
 {
+}
+
+bool System::checkMovieExists(myString date, myString startTime, myString endTime, int hallid) const
+{
+	for (size_t i = 0; i < movies.getSize(); i++)
+	{
+		if (movies[i]->getHallId() == hallid && movies[i]->getDate() == date && (movies[i]->getStartTime() >= startTime && movies[i]->getStartTime() <= endTime ||
+			movies[i]->getEndTime() >= startTime && movies[i]->getEndTime() <= endTime ||
+			movies[i]->getStartTime() >= startTime && movies[i]->getEndTime() <= endTime ||
+			movies[i]->getStartTime() <= startTime && movies[i]->getEndTime() >= endTime)) return true;
+	}
+	return false;
+
 }
 
 Hall& System::getHallById(size_t id)
@@ -231,10 +256,15 @@ bool System::closeHaul(size_t id)
 			}
 		}
 	}
+	for (size_t i = 0; i < movies.getSize(); i++)
+	{
+		if (movies[i]->getHallId() == hall->getId()) movies.remove(i);
+	}
 	for (size_t i = 0; i < halls.getSize(); i++)
 	{
 		if (halls[i].getId() == id) halls.remove(i);
 	}
+
 	return true;
 }
 
@@ -347,10 +377,10 @@ void System::run()
 	Vector<myString> command;
 	User* currentUser = nullptr;
 	char buffer[1024];
-	
-		while (true)
-		{
-			try {
+
+	while (true)
+	{
+		try {
 			std::cout << "> ";
 			std::cin.getline(buffer, 1024);
 			input = myString(buffer);
@@ -368,8 +398,8 @@ void System::run()
 		catch (const std::exception& e) {
 			std::cout << "Caught exception: " << e.what() << std::endl;
 		}
-		}
-	
+	}
+
 
 
 }

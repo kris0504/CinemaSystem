@@ -1,6 +1,6 @@
 #include "ActionMovie.h"
 
-ActionMovie::ActionMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, int actionIntensity) : Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime), actionIntensity(actionIntensity)
+ActionMovie::ActionMovie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId, myString date, myString startTime, myString endTime, int actionIntensity,int rows, int cols) : Movie(title, durationMinutes, releaseYear, genre, hallId, date, startTime, endTime,rows,cols), actionIntensity(actionIntensity)
 {
 
 	if (actionIntensity < 0 || actionIntensity > 20) {

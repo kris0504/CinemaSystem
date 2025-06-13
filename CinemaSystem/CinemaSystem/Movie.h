@@ -12,8 +12,10 @@ protected:
     int durationMinutes;
     int releaseYear;
     myString genre;
-	Hall hall; 
+	Vector<Vector<bool>> hall;
 	int hallId; 
+	int rows;
+	int cols;
     myString date;
     myString startTime;
     myString endTime;
@@ -22,9 +24,9 @@ protected:
 public:
 	Movie() = default; // Default constructor
     Movie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId,
-        myString date, myString startTime, myString endTime);
+        myString date, myString startTime, myString endTime,int rows,int cols);
 	myString getTitle() const { return title; }
-	Hall& getHall() { return hall; }
+	Vector<Vector<bool>>& getHall() { return hall; }
 	double getRating() const { return rating; }
 	int getDurationMinutes() const { return durationMinutes; }
 	int getReleaseYear() const { return releaseYear; }
@@ -45,6 +47,11 @@ public:
 	virtual myString getType() const = 0; // Returns the type of the movie (e.g., "Action", "Drama", etc.)
     virtual double calculatePrice() const = 0;
     virtual void printDetails() const = 0;
+	void reserveSeat(int row, int col);
+	void releaseSeat(int row, int col);
+	bool isSeatFree(int row, int col) const;
+	void printLayout() const;
+	
     virtual ~Movie() = default;
 };
 

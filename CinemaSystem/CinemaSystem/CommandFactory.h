@@ -21,6 +21,7 @@
 #include "RemoveUserCommand.h"
 #include "PrintSeatsCommand.h"
 #include "InvalidCommand.h"
+#include "addBalanceCommand.h"
 class System;
 class User;
     class CommandFactory {

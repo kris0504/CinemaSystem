@@ -12,9 +12,11 @@ private:
     int loggedInUserId;
 
 public:
+
     System();
     User* login(int id, myString password);
     void addMovie(Movie* movie);
+	bool checkMovieExists(myString date, myString startTime, myString endTime, int hallid) const;
 	Hall& getHallById(size_t id) ;
 	Vector<Movie*>& getMovies() ;
 	Vector<User*>& getUsers() ;

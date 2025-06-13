@@ -15,7 +15,7 @@ public:
         for (size_t i = 0; i < rows; ++i) {
             seats[i] = Vector<bool>(cols);
         }
-		id++;
+        id=nextid++;
 	}
 
 	size_t getId() const { return id; }

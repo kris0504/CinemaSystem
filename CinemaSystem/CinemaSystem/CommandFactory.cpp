@@ -23,6 +23,7 @@ Command* CommandFactory::createCommand(System& sys, User*& currentUser, const Ve
 	}
 
 	if (command[0] == "print_seats") return new PrintSeatsCommand();
+	if (command[0] == "add_balance") return new AddBalanceCommand();
 	if (command[0] == "list_movies") return new ListMoviesCommand();
 	if (command[0] == "list_tickets") return new ListTicketsCommand();
 	if (command[0] == "rate_movie") return new RateMovieCommand();

@@ -2,7 +2,7 @@
 
 void ListMoviesCommand::execute(System& sys, User*& currentUser, const Vector<myString>& command) const
 {
-	if (currentUser == nullptr ) {
+	if (currentUser == nullptr) {
 		std::cout << "You must be logged in to list movies." << std::endl;
 		return;
 	}
@@ -13,6 +13,7 @@ void ListMoviesCommand::execute(System& sys, User*& currentUser, const Vector<my
 	}
 
 	for (int i = 0; i < movies.getSize();i++) {
-		std::cout << movies[i]->getTitle() << " (" << movies[i]->getReleaseYear() << ")" << std::endl;
+		std::cout << movies[i]->getTitle() << " (" << movies[i]->getReleaseYear() << ")" << " Haul: " << movies[i]->getHallId() <<
+			" date: " << movies[i]->getDate()<< " start time: " << movies[i]->getStartTime() << std::endl;
 	}
 }
