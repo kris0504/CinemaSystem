@@ -3,72 +3,104 @@
   "WorkspaceRootPath": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Hall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUsersCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CinemaSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RegularUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\UpdateMovieTitleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RemoveMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CommandFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Hall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ViewBalanceCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ViewBalanceCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\UpdateMovieTitleCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\UpdateMovieHaul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Ticket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RemoveUserCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RemoveMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RegularUser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RegisterCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RateMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\PrintSeatsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\OpenHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\myString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LogoutCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUsersCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListMoviesCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\InvalidCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -83,64 +115,16 @@
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\DocumentaryMovie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListTicketsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\PrintSeatsCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Movie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\myString.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Vector.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ActionMovie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CloseHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CloseHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LogoutCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\OpenHaulCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\InvalidCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserHistoryCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListMoviesCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CinemaSystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\BuyTicketCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -159,32 +143,24 @@
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\addBalanceCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListMoviesCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ActionMovie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\UpdateMovieHaul.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ViewBalanceCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Ticket.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Vector.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RemoveUserCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RegisterCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\RateMovieCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Hall.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\UpdateMovieTitleCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -193,6 +169,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Ticket.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -227,12 +207,20 @@
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\myString.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Movie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LogoutCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\LoginCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -243,8 +231,8 @@
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserHistoryCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListMoviesCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListHistoryCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -253,6 +241,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\InvalidCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Hall.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -265,6 +257,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\DocumentaryMovie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\CommandFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\Command.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CloseHaulCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -291,8 +291,8 @@
       "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ActionMovie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListUserTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B021485-0240-4FFA-97C3-68909F68E637}|CinemaSystem\\CinemaSystem.vcxproj|solutionrelative:CinemaSystem\\ListTicketsCommand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\oopHomework\\Courses\\Courses\\Mail.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -324,13 +324,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "CommandFactory.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\CommandFactory.cpp",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.cpp",
               "RelativeToolTip": "CinemaSystem\\CommandFactory.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-09T11:16:08.014Z",
               "IsPinned": true,
@@ -338,215 +338,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CommandFactory.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\CommandFactory.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h",
-              "RelativeToolTip": "CinemaSystem\\CommandFactory.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:14:55.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\LoginCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\LoginCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Title": "RemoveUserCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\RemoveUserCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\RemoveUserCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:48:32.805Z",
+              "WhenOpened": "2025-06-09T13:51:37.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "RegularUser.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\RegularUser.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp",
-              "RelativeToolTip": "CinemaSystem\\RegularUser.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T12:03:37.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CinemaSystem.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\CinemaSystem.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp",
-              "RelativeToolTip": "CinemaSystem\\CinemaSystem.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T08:51:24.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "System.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\System.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h",
-              "RelativeToolTip": "CinemaSystem\\System.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:06:17.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "System.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\System.cpp",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.cpp",
               "RelativeToolTip": "CinemaSystem\\System.cpp",
-              "ViewState": "AgIAAKkBAAAAAAAAAAAWwLIBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACMBAAAAAAAAAAAqwDABAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-09T13:44:55.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\Ticket.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp",
+              "RelativeToolTip": "CinemaSystem\\Ticket.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:51:54.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ListUsersCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListUsersCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\ListUsersCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Title": "UpdateMovieHaul.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieHaul.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp",
+              "RelativeToolTip": "CinemaSystem\\UpdateMovieHaul.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:50:08.614Z",
+              "WhenOpened": "2025-06-09T13:51:59.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\User.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h",
-              "RelativeToolTip": "CinemaSystem\\User.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:02:35.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\Movie.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h",
-              "RelativeToolTip": "CinemaSystem\\Movie.h",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwDgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:54:23.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Hall.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\Hall.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h",
-              "RelativeToolTip": "CinemaSystem\\Hall.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:58:34.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateMovieTitleCommand.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieTitleCommand.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h",
-              "RelativeToolTip": "CinemaSystem\\UpdateMovieTitleCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:17:59.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RemoveMovieCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\RemoveMovieCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\RemoveMovieCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:51:31.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ExitCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ExitCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\ExitCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:41:53.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DramaMovie.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DramaMovie.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\DramaMovie.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DramaMovie.cpp",
-              "RelativeToolTip": "CinemaSystem\\DramaMovie.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T19:01:06.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ViewBalanceCommand.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\ViewBalanceCommand.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h",
-              "RelativeToolTip": "CinemaSystem\\ViewBalanceCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-15T15:42:13.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ViewBalanceCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ViewBalanceCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\ViewBalanceCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-15T15:42:26.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "UpdateMovieTitleCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieTitleCommand.cpp",
@@ -559,65 +403,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "myString.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\myString.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp",
-              "RelativeToolTip": "CinemaSystem\\myString.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T10:47:54.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 2,
               "Title": "User.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\User.cpp",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.cpp",
               "RelativeToolTip": "CinemaSystem\\User.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAASwDAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T11:21:28.624Z"
+              "WhenOpened": "2025-06-09T11:21:28.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 1,
+              "Title": "ViewBalanceCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ViewBalanceCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\ViewBalanceCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-15T15:42:26.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hall.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\Hall.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp",
+              "RelativeToolTip": "CinemaSystem\\Hall.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T20:11:59.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RemoveMovieCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\RemoveMovieCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\RemoveMovieCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:51:31.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegularUser.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\RegularUser.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.cpp",
+              "RelativeToolTip": "CinemaSystem\\RegularUser.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T12:03:37.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\RegisterCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\RegisterCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:51:01.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RateMovieCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\RateMovieCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\RateMovieCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:50:53.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PrintSeatsCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\PrintSeatsCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\PrintSeatsCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:50:46.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OpenHaulCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\OpenHaulCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\OpenHaulCommand.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:50:41.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "myString.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\myString.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.cpp",
+              "RelativeToolTip": "CinemaSystem\\myString.cpp",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJ4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T10:47:54.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Movie.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\Movie.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp",
+              "RelativeToolTip": "CinemaSystem\\Movie.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T18:02:32.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LogoutCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\LogoutCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\LogoutCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T12:29:04.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\LoginCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\LoginCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:48:32.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ListUserTicketsCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\ListUserTicketsCommand.cpp",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.cpp",
               "RelativeToolTip": "CinemaSystem\\ListUserTicketsCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-09T13:50:15.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Command.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\Command.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h",
-              "RelativeToolTip": "CinemaSystem\\Command.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:13:10.652Z",
+              "DocumentIndex": 19,
+              "Title": "ListUsersCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListUsersCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\ListUsersCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:50:08.614Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DocumentaryMovie.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\DocumentaryMovie.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.cpp",
-              "RelativeToolTip": "CinemaSystem\\DocumentaryMovie.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ListUserHistoryCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListUserHistoryCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\ListUserHistoryCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T19:08:14.907Z",
+              "WhenOpened": "2025-06-09T13:50:01.481Z",
               "EditorCaption": ""
             },
             {
@@ -630,47 +619,25 @@
               "RelativeToolTip": "CinemaSystem\\ListTicketsCommand.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:49:55.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Vector.hpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\Vector.hpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp",
-              "RelativeToolTip": "CinemaSystem\\Vector.hpp",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAAwA4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:52:15.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Movie.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\Movie.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.cpp",
-              "RelativeToolTip": "CinemaSystem\\Movie.cpp",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAAwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T18:02:32.923Z"
+              "WhenOpened": "2025-06-09T13:49:55.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "PrintSeatsCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\PrintSeatsCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\PrintSeatsCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Title": "ListMoviesCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListMoviesCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\ListMoviesCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:50:46.433Z"
+              "WhenOpened": "2025-06-09T13:49:49.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "ListHistoryCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListHistoryCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\ListHistoryCommand.cpp",
@@ -678,7 +645,60 @@
               "RelativeToolTip": "CinemaSystem\\ListHistoryCommand.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:49:44.405Z"
+              "WhenOpened": "2025-06-09T13:49:44.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InvalidCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\InvalidCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\InvalidCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T11:49:04.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExitCommand.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ExitCommand.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.cpp",
+              "RelativeToolTip": "CinemaSystem\\ExitCommand.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T13:41:53.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DramaMovie.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DramaMovie.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\DramaMovie.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DramaMovie.cpp",
+              "RelativeToolTip": "CinemaSystem\\DramaMovie.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T19:01:06.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DocumentaryMovie.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\DocumentaryMovie.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.cpp",
+              "RelativeToolTip": "CinemaSystem\\DocumentaryMovie.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T19:08:14.907Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -690,83 +710,25 @@
               "RelativeToolTip": "CinemaSystem\\CloseHaulCommand.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:49:03.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ActionMovie.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ActionMovie.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp",
-              "RelativeToolTip": "CinemaSystem\\ActionMovie.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAASwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T18:14:29.498Z"
+              "WhenOpened": "2025-06-09T13:49:03.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "LogoutCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\LogoutCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\LogoutCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Title": "CinemaSystem.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\CinemaSystem.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CinemaSystem.cpp",
+              "RelativeToolTip": "CinemaSystem\\CinemaSystem.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T12:29:04.951Z"
+              "WhenOpened": "2025-06-09T08:51:24.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "OpenHaulCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\OpenHaulCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\OpenHaulCommand.cpp",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:50:41.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "InvalidCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\InvalidCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\InvalidCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T11:49:04.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ListUserHistoryCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListUserHistoryCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\ListUserHistoryCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:50:01.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ListMoviesCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListMoviesCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\ListMoviesCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:49:49.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "BuyTicketCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\BuyTicketCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\BuyTicketCommand.cpp",
@@ -774,11 +736,12 @@
               "RelativeToolTip": "CinemaSystem\\BuyTicketCommand.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:48:55.78Z"
+              "WhenOpened": "2025-06-09T13:48:55.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 32,
               "Title": "Admin.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Admin.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\Admin.cpp",
@@ -786,11 +749,12 @@
               "RelativeToolTip": "CinemaSystem\\Admin.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T11:08:24.174Z"
+              "WhenOpened": "2025-06-09T11:08:24.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 33,
               "Title": "AddMovieCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\AddMovieCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\AddMovieCommand.cpp",
@@ -803,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 34,
               "Title": "addBalanceCommand.cpp",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\addBalanceCommand.cpp",
               "RelativeDocumentMoniker": "CinemaSystem\\addBalanceCommand.cpp",
@@ -811,96 +775,77 @@
               "RelativeToolTip": "CinemaSystem\\addBalanceCommand.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-12T17:25:52.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ListMoviesCommand.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListMoviesCommand.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h",
-              "RelativeToolTip": "CinemaSystem\\ListMoviesCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:38:16.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UpdateMovieHaul.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieHaul.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.cpp",
-              "RelativeToolTip": "CinemaSystem\\UpdateMovieHaul.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:51:59.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Ticket.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\Ticket.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.cpp",
-              "RelativeToolTip": "CinemaSystem\\Ticket.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:51:54.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RegisterCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\RegisterCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\RegisterCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:51:01.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RemoveUserCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\RemoveUserCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\RemoveUserCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:51:37.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "RateMovieCommand.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\RateMovieCommand.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.cpp",
-              "RelativeToolTip": "CinemaSystem\\RateMovieCommand.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T13:50:53.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Hall.cpp",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp",
-              "RelativeDocumentMoniker": "CinemaSystem\\Hall.cpp",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.cpp",
-              "RelativeToolTip": "CinemaSystem\\Hall.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-09T20:11:59.213Z",
+              "WhenOpened": "2025-06-12T17:25:52.922Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 35,
+              "Title": "ActionMovie.cpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\ActionMovie.cpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ActionMovie.cpp",
+              "RelativeToolTip": "CinemaSystem\\ActionMovie.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T18:14:29.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ViewBalanceCommand.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\ViewBalanceCommand.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ViewBalanceCommand.h",
+              "RelativeToolTip": "CinemaSystem\\ViewBalanceCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-15T15:42:13.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Vector.hpp",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp",
+              "RelativeDocumentMoniker": "CinemaSystem\\Vector.hpp",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Vector.hpp",
+              "RelativeToolTip": "CinemaSystem\\Vector.hpp",
+              "ViewState": "AgIAALEBAAAAAAAAAAAAAA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T10:52:15.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "User.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\User.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\User.h",
+              "RelativeToolTip": "CinemaSystem\\User.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T11:02:35.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateMovieTitleCommand.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieTitleCommand.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieTitleCommand.h",
+              "RelativeToolTip": "CinemaSystem\\UpdateMovieTitleCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T13:17:59.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "UpdateMovieHaul.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\UpdateMovieHaul.h",
               "RelativeDocumentMoniker": "CinemaSystem\\UpdateMovieHaul.h",
@@ -908,23 +853,38 @@
               "RelativeToolTip": "CinemaSystem\\UpdateMovieHaul.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:19:40.762Z"
+              "WhenOpened": "2025-06-09T13:19:40.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 41,
               "Title": "Ticket.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.h",
               "RelativeDocumentMoniker": "CinemaSystem\\Ticket.h",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Ticket.h",
               "RelativeToolTip": "CinemaSystem\\Ticket.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:01:40.373Z"
+              "WhenOpened": "2025-06-09T11:01:40.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 42,
+              "Title": "System.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\System.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\System.h",
+              "RelativeToolTip": "CinemaSystem\\System.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T11:06:17.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "RemoveUserCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveUserCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\RemoveUserCommand.h",
@@ -932,11 +892,12 @@
               "RelativeToolTip": "CinemaSystem\\RemoveUserCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:22:31.713Z"
+              "WhenOpened": "2025-06-09T13:22:31.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 44,
               "Title": "RemoveMovieCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RemoveMovieCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\RemoveMovieCommand.h",
@@ -944,11 +905,12 @@
               "RelativeToolTip": "CinemaSystem\\RemoveMovieCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:15:17.409Z"
+              "WhenOpened": "2025-06-09T13:15:17.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 45,
               "Title": "RegularUser.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegularUser.h",
               "RelativeDocumentMoniker": "CinemaSystem\\RegularUser.h",
@@ -956,11 +918,12 @@
               "RelativeToolTip": "CinemaSystem\\RegularUser.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:04:09.182Z"
+              "WhenOpened": "2025-06-09T11:04:09.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 46,
               "Title": "RegisterCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RegisterCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\RegisterCommand.h",
@@ -968,11 +931,12 @@
               "RelativeToolTip": "CinemaSystem\\RegisterCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:36:11.393Z"
+              "WhenOpened": "2025-06-09T11:36:11.393Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 47,
               "Title": "RateMovieCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\RateMovieCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\RateMovieCommand.h",
@@ -980,11 +944,12 @@
               "RelativeToolTip": "CinemaSystem\\RateMovieCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:48:53.856Z"
+              "WhenOpened": "2025-06-09T11:48:53.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 48,
               "Title": "PrintSeatsCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\PrintSeatsCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\PrintSeatsCommand.h",
@@ -992,11 +957,12 @@
               "RelativeToolTip": "CinemaSystem\\PrintSeatsCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:05:43.197Z"
+              "WhenOpened": "2025-06-09T13:05:43.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 49,
               "Title": "OpenHaulCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\OpenHaulCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\OpenHaulCommand.h",
@@ -1004,23 +970,38 @@
               "RelativeToolTip": "CinemaSystem\\OpenHaulCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:13:27.853Z"
+              "WhenOpened": "2025-06-09T13:13:27.853Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 50,
               "Title": "myString.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.h",
               "RelativeDocumentMoniker": "CinemaSystem\\myString.h",
               "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\myString.h",
               "RelativeToolTip": "CinemaSystem\\myString.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:47:30.65Z"
+              "WhenOpened": "2025-06-09T10:47:30.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 51,
+              "Title": "Movie.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\Movie.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Movie.h",
+              "RelativeToolTip": "CinemaSystem\\Movie.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T10:54:23.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "LogoutCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LogoutCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\LogoutCommand.h",
@@ -1028,11 +1009,12 @@
               "RelativeToolTip": "CinemaSystem\\LogoutCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:36:55.026Z"
+              "WhenOpened": "2025-06-09T11:36:55.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 53,
               "Title": "LoginCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\LoginCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\LoginCommand.h",
@@ -1040,11 +1022,25 @@
               "RelativeToolTip": "CinemaSystem\\LoginCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:29:42.573Z"
+              "WhenOpened": "2025-06-09T11:29:42.573Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 54,
+              "Title": "ListUserTicketsCommand.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListUserTicketsCommand.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h",
+              "RelativeToolTip": "CinemaSystem\\ListUserTicketsCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T13:21:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
               "Title": "ListUsersCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUsersCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\ListUsersCommand.h",
@@ -1052,11 +1048,12 @@
               "RelativeToolTip": "CinemaSystem\\ListUsersCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:22:05.073Z"
+              "WhenOpened": "2025-06-09T13:22:05.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 56,
               "Title": "ListUserHistoryCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserHistoryCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\ListUserHistoryCommand.h",
@@ -1064,23 +1061,25 @@
               "RelativeToolTip": "CinemaSystem\\ListUserHistoryCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:20:25.413Z"
+              "WhenOpened": "2025-06-09T13:20:25.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ListTicketsCommand.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListTicketsCommand.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h",
-              "RelativeToolTip": "CinemaSystem\\ListTicketsCommand.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 57,
+              "Title": "ListMoviesCommand.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListMoviesCommand.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListMoviesCommand.h",
+              "RelativeToolTip": "CinemaSystem\\ListMoviesCommand.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:48:13.156Z"
+              "WhenOpened": "2025-06-09T11:38:16.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 58,
               "Title": "ListHistoryCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListHistoryCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\ListHistoryCommand.h",
@@ -1088,11 +1087,12 @@
               "RelativeToolTip": "CinemaSystem\\ListHistoryCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:26:26.011Z"
+              "WhenOpened": "2025-06-09T13:26:26.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 59,
               "Title": "InvalidCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\InvalidCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\InvalidCommand.h",
@@ -1100,11 +1100,25 @@
               "RelativeToolTip": "CinemaSystem\\InvalidCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-12T11:48:39.65Z"
+              "WhenOpened": "2025-06-12T11:48:39.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 60,
+              "Title": "Hall.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\Hall.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Hall.h",
+              "RelativeToolTip": "CinemaSystem\\Hall.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T10:58:34.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "ExitCommand.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ExitCommand.h",
               "RelativeDocumentMoniker": "CinemaSystem\\ExitCommand.h",
@@ -1112,11 +1126,12 @@
               "RelativeToolTip": "CinemaSystem\\ExitCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:49:53.79Z"
+              "WhenOpened": "2025-06-09T11:49:53.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 62,
               "Title": "DramaMovie.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DramaMovie.h",
               "RelativeDocumentMoniker": "CinemaSystem\\DramaMovie.h",
@@ -1124,11 +1139,12 @@
               "RelativeToolTip": "CinemaSystem\\DramaMovie.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:56:05Z"
+              "WhenOpened": "2025-06-09T10:56:05Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 63,
               "Title": "DocumentaryMovie.h",
               "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\DocumentaryMovie.h",
               "RelativeDocumentMoniker": "CinemaSystem\\DocumentaryMovie.h",
@@ -1136,7 +1152,34 @@
               "RelativeToolTip": "CinemaSystem\\DocumentaryMovie.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:56:43.161Z"
+              "WhenOpened": "2025-06-09T10:56:43.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CommandFactory.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\CommandFactory.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\CommandFactory.h",
+              "RelativeToolTip": "CinemaSystem\\CommandFactory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T11:14:55.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Command.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\Command.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\Command.h",
+              "RelativeToolTip": "CinemaSystem\\Command.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-09T11:13:10.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1148,7 +1191,8 @@
               "RelativeToolTip": "CinemaSystem\\CloseHaulCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:16:00.703Z"
+              "WhenOpened": "2025-06-09T13:16:00.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1160,7 +1204,8 @@
               "RelativeToolTip": "CinemaSystem\\BuyTicketCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:37:32.742Z"
+              "WhenOpened": "2025-06-09T11:37:32.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1172,7 +1217,8 @@
               "RelativeToolTip": "CinemaSystem\\Admin.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T11:05:15.532Z"
+              "WhenOpened": "2025-06-09T11:05:15.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1184,7 +1230,8 @@
               "RelativeToolTip": "CinemaSystem\\AddMovieCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:12:34.812Z"
+              "WhenOpened": "2025-06-09T13:12:34.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1196,7 +1243,8 @@
               "RelativeToolTip": "CinemaSystem\\addBalanceCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-12T17:25:18.588Z"
+              "WhenOpened": "2025-06-12T17:25:18.588Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1208,19 +1256,20 @@
               "RelativeToolTip": "CinemaSystem\\ActionMovie.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T10:55:37.102Z"
+              "WhenOpened": "2025-06-09T10:55:37.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 72,
-              "Title": "ListUserTicketsCommand.h",
-              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h",
-              "RelativeDocumentMoniker": "CinemaSystem\\ListUserTicketsCommand.h",
-              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListUserTicketsCommand.h",
-              "RelativeToolTip": "CinemaSystem\\ListUserTicketsCommand.h",
+              "Title": "ListTicketsCommand.h",
+              "DocumentMoniker": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h",
+              "RelativeDocumentMoniker": "CinemaSystem\\ListTicketsCommand.h",
+              "ToolTip": "D:\\github_rep\\CinemaSystem\\CinemaSystem\\CinemaSystem\\ListTicketsCommand.h",
+              "RelativeToolTip": "CinemaSystem\\ListTicketsCommand.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-09T13:21:23.346Z"
+              "WhenOpened": "2025-06-09T11:48:13.156Z"
             },
             {
               "$type": "Document",

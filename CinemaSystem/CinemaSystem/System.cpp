@@ -104,7 +104,7 @@ bool System::buyTicket(int movieId, int row, int col, User* currentUser)
 			movies[i]->reserveSeat(row, col);
 			Ticket ticket(movies[i]->getId(), row, col, movies[i]->getPrice(), getCurrentDate(), getCurrentTime(), movies[i]->getTitle(), movies[i]->getHallId());
 			static_cast<RegularUser*>(currentUser)->getTickets().push_back(ticket);
-			//std::cout << "Ticket purchased successfully." << std::endl;
+			
 			return true;
 		}
 	}
@@ -302,14 +302,12 @@ void System::checkTickets(User* user)
 	{
 		if ((regularUser->getTickets()[i].getDate() < getCurrentDate()||(regularUser->getTickets()[i].getDate() == getCurrentDate()&& regularUser->getTickets()[i].getTime() < getCurrentTime())))
 		{
-			//!regularUser->getTickets()[i].isPassed() &&
-			//regularUser->getTickets()[i].setPassed(true);
+		
 			myString movieName = getMovieNameById(regularUser->getTickets()[i].getMovieId());
-			//std::cout << "Adding to history: " << movieName << std::endl;
+			
 			regularUser->getHistory().push_back(movieName);
 			regularUser->getTickets().remove(i);
 
-			//regularUser->getHistory().push_back(getMovieNameById(regularUser->getTickets()[i].getMovieId()));
 			i--;
 			s--;
 		}

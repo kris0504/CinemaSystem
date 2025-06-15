@@ -80,11 +80,9 @@ void Movie::serializeBase(std::ofstream& out) const {
     endTime.serialize(out);
     out.write((char*)&price, sizeof(price));
     out.write((char*)&passed, sizeof(passed));
-    //size_t outerSize = hall.getSize();
-    //out.write((char*)&outerSize, sizeof(outerSize));
+   
     for (size_t i = 0; i < rows; i++) {
-       // size_t innerSize = hall[i].getSize();
-        //out.write((char*)&innerSize, sizeof(innerSize));
+
         for (size_t j = 0; j < cols; j++) {
             out.write((char*)&hall[i][j], sizeof(bool));
         }
@@ -108,13 +106,10 @@ void Movie::deserializeBase(std::ifstream& in) {
     endTime.deserialize(in);
     in.read((char*)&price, sizeof(price));
     in.read((char*)&passed, sizeof(passed));
-    //size_t outerSize;
-   // in.read((char*)&outerSize, sizeof(outerSize));
+
     hall.clear(); 
     for (size_t i = 0; i < rows; i++) {
-       // size_t innerSize;
-        //in.read((char*)&innerSize, sizeof(innerSize));
-
+ 
         Vector<bool> row;
         for (size_t j = 0; j < cols; j++) {
             bool value;
@@ -126,16 +121,5 @@ void Movie::deserializeBase(std::ifstream& in) {
     }
 
 
-   /* for (size_t i = 0; i < outerSize; i++) {
-        size_t innerSize;
-        in.read((char*)&innerSize, sizeof(innerSize));
-        Vector<bool> row(innerSize);
-        for (size_t j = 0; j < innerSize; j++) {
-            bool value;
-            in.read((char*)&value, sizeof(value));
-            row[j] = value;
-        }
-        hall[i] = row;
-    }*/
     
 }
