@@ -175,8 +175,6 @@ myString& myString::operator+=(const myString& other)
     if (getSize() + other.getSize() + 1 > _allocatedDataSize)
         resize(dataToAllocByStringLen(getSize() + other.getSize()));
 
-    // we need to use strncat instead of strcat, because strcat will not work for str += str 
-    // (the terminating zero of str will be destroyed by the first char)
     std::strncat(_data, other._data, other.getSize());
 
     _size = getSize() + other.getSize();
@@ -211,12 +209,12 @@ double myString::toDouble() const
 
 char& myString::operator[](size_t index)
 {
-    return _data[index]; // no security check!!
+    return _data[index]; 
 }
 
 const char& myString::operator[](size_t index) const
 {
-    return _data[index]; // no security check!!
+    return _data[index]; 
 }
 
 std::ostream& operator<<(std::ostream& os, const myString& obj)
@@ -288,11 +286,23 @@ myString myString::substr(size_t begin, size_t howMany) const
 myString operator+(const myString& lhs, const myString& rhs)
 {
     myString result(lhs.getSize() + rhs.getSize());
-    result += lhs; // no resize is needed
+    result += lhs; 
     result += rhs;
     return result;
 }
+void myString::serialize(std::ofstream& out) const {
+    out.write((char*)&_size, sizeof(_size));
+    out.write(_data, _size);
+}
 
+void myString::deserialize(std::ifstream& in) {
+    in.read((char*)&_size, sizeof(_size));
+    _allocatedDataSize = dataToAllocByStringLen(_size);
+    delete[] _data;
+    _data = new char[_allocatedDataSize];
+    in.read(_data, _size);
+    _data[_size] = '\0';
+}
 bool operator==(const myString& lhs, const myString& rhs)
 {
     return std::strcmp(lhs.c_str(), rhs.c_str()) == 0;

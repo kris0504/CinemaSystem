@@ -163,6 +163,7 @@
     <ClCompile Include="UpdateMovieHaul.cpp" />
     <ClCompile Include="UpdateMovieTitleCommand.cpp" />
     <ClCompile Include="User.cpp" />
+    <ClCompile Include="ViewBalanceCommand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActionMovie.h" />
@@ -201,6 +202,7 @@
     <ClInclude Include="UpdateMovieTitleCommand.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="Vector.hpp" />
+    <ClInclude Include="ViewBalanceCommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

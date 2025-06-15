@@ -6,9 +6,14 @@ genre(genre), hallId(hallId), date(date), startTime(startTime), endTime(endTime)
 {
 	this->rows = rows;
 	this->cols = cols;
-	for (size_t i = 0; i < rows; ++i) {
-		hall[i] = Vector<bool>(cols);
-	}
+    hall.clear();
+    for (size_t i = 0; i < rows; ++i) {
+        Vector<bool> row;
+        for (int j = 0; j < cols; j++)
+            row.push_back(false);
+        hall.push_back(row);
+    }
+
 	passed = false;
 	id = nextid++;
 
@@ -16,7 +21,10 @@ genre(genre), hallId(hallId), date(date), startTime(startTime), endTime(endTime)
 
 bool Movie::isSeatAvailable(int row, int col) const
 {
-	return !hall[row][col];
+	if (row < 1 || row > rows || col < 1 || col > cols) {
+		throw std::out_of_range("Invalid seat position");
+	}
+	return !hall[row-1][col-1];
 }
 
 void Movie::addRating(double rate)
@@ -30,18 +38,19 @@ void Movie::addRating(double rate)
 
 void Movie::reserveSeat(int row, int col)
 {
-	if (row < 0 || row >= rows || col < 0 || col >= cols) {
+	if (row < 1 || row > rows || col < 1 || col > cols) {
 		throw std::out_of_range("Invalid seat position");
 	}
-	hall[row][col] = true; // Mark the seat as reserved
+	hall[row-1][col-1] = true;
 }
 
 void Movie::releaseSeat(int row, int col)
 {
-	if (row < 0 || row >= rows || col < 0 || col >= cols) {
+	if (row < 1 || row > rows || col < 1 || col > cols) {
+
 		throw std::out_of_range("Invalid seat position");
 	}
-	hall[row][col] = false; // Mark the seat as free
+	hall[row-1][col-1] = false; 
 }
 
 
@@ -50,8 +59,83 @@ void Movie::printLayout() const
 {
 	for (int i = 0; i < rows; ++i) {
 		for (int j = 0; j < cols; ++j) {
-			std::cout << (hall[i][j] ? "X" : "O") << " "; // X for reserved, O for free
+			std::cout << (hall[i][j] ? "X" : "O") << " ";
 		}
 		std::cout << std::endl;
 	}
+}
+void Movie::serializeBase(std::ofstream& out) const {
+    out.write((char*)&id, sizeof(id));
+    title.serialize(out);
+    out.write((char*)&rating, sizeof(rating));
+    out.write((char*)&rateCount, sizeof(rateCount));
+    out.write((char*)&durationMinutes, sizeof(durationMinutes));
+    out.write((char*)&releaseYear, sizeof(releaseYear));
+    genre.serialize(out);
+    out.write((char*)&hallId, sizeof(hallId));
+    out.write((char*)&rows, sizeof(rows));
+    out.write((char*)&cols, sizeof(cols));
+    date.serialize(out);
+    startTime.serialize(out);
+    endTime.serialize(out);
+    out.write((char*)&price, sizeof(price));
+    out.write((char*)&passed, sizeof(passed));
+    //size_t outerSize = hall.getSize();
+    //out.write((char*)&outerSize, sizeof(outerSize));
+    for (size_t i = 0; i < rows; i++) {
+       // size_t innerSize = hall[i].getSize();
+        //out.write((char*)&innerSize, sizeof(innerSize));
+        for (size_t j = 0; j < cols; j++) {
+            out.write((char*)&hall[i][j], sizeof(bool));
+        }
+    }
+    
+}
+
+void Movie::deserializeBase(std::ifstream& in) {
+    in.read((char*)&id, sizeof(id));
+    title.deserialize(in);
+    in.read((char*)&rating, sizeof(rating));
+    in.read((char*)&rateCount, sizeof(rateCount));
+    in.read((char*)&durationMinutes, sizeof(durationMinutes));
+    in.read((char*)&releaseYear, sizeof(releaseYear));
+    genre.deserialize(in);
+    in.read((char*)&hallId, sizeof(hallId));
+    in.read((char*)&rows, sizeof(rows));
+    in.read((char*)&cols, sizeof(cols));
+    date.deserialize(in);
+    startTime.deserialize(in);
+    endTime.deserialize(in);
+    in.read((char*)&price, sizeof(price));
+    in.read((char*)&passed, sizeof(passed));
+    //size_t outerSize;
+   // in.read((char*)&outerSize, sizeof(outerSize));
+    hall.clear(); 
+    for (size_t i = 0; i < rows; i++) {
+       // size_t innerSize;
+        //in.read((char*)&innerSize, sizeof(innerSize));
+
+        Vector<bool> row;
+        for (size_t j = 0; j < cols; j++) {
+            bool value;
+            in.read((char*)&value, sizeof(value));
+            row.push_back(value);
+        }
+
+        hall.push_back(row); 
+    }
+
+
+   /* for (size_t i = 0; i < outerSize; i++) {
+        size_t innerSize;
+        in.read((char*)&innerSize, sizeof(innerSize));
+        Vector<bool> row(innerSize);
+        for (size_t j = 0; j < innerSize; j++) {
+            bool value;
+            in.read((char*)&value, sizeof(value));
+            row[j] = value;
+        }
+        hall[i] = row;
+    }*/
+    
 }

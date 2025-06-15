@@ -22,6 +22,7 @@
 #include "PrintSeatsCommand.h"
 #include "InvalidCommand.h"
 #include "addBalanceCommand.h"
+#include "ViewBalanceCommand.h"
 class System;
 class User;
     class CommandFactory {

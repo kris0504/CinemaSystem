@@ -10,10 +10,14 @@ public:
 	RegularUser() = default;
     RegularUser(const myString& name, const myString& password, double balance);
 	Vector<Ticket>& getTickets() { return tickets; }
-	Vector <myString> getHistory() { return history; }
+	Vector <myString>& getHistory() { return history; }
     void buyTicket(int movieId, int row, int col);
     void rateMovie(int movieId, int rating);
     void printMenu() const override;
+    
+    void serialize(std::ofstream& out) const override;
+    void deserialize(std::ifstream& in) override;
+
 };
 
 

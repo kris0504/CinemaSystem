@@ -24,5 +24,9 @@ public:
 	myString getTime() const { return time; }
 	int getMovieId() const { return movieId; }
     void printTicket() const;
+	
+	void serialize(std::ofstream& out) const;
+	void deserialize(std::ifstream& in);
+
 };
 

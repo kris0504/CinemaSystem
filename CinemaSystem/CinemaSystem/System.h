@@ -32,6 +32,9 @@ public:
     bool updateMovieHaul(int movieId, int newHallId);
     bool isHallFree(int hallId, const myString& date, const myString& startTime, const myString& endTime, int movieId);
     bool updateMovieTitle(size_t id, myString newTitle);
+    Movie* getMovieByName(myString name);
+    Movie* getMovieById(size_t id);
+
     void run();
     void saveToFile();
     void loadFromFile();

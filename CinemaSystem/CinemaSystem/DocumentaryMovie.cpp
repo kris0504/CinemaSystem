@@ -10,7 +10,7 @@ DocumentaryMovie::DocumentaryMovie(myString title, int durationMinutes, int rele
 	if (rating < 0.0 || rating > 10.0) {
 		throw std::invalid_argument("Rating must be between 0.0 and 10.0.");
 	}
-	if (releaseYear < 1888 || releaseYear > 2023) { // Assuming movies started in 1888
+	if (releaseYear < 1888 || releaseYear > 2023) { 
 		throw std::invalid_argument("Release year must be between 1888 and 2023.");
 	}
 	if (hallId <= 0) {
@@ -35,4 +35,15 @@ double DocumentaryMovie::calculatePrice() const
 
 void DocumentaryMovie::printDetails() const
 {
+}
+void DocumentaryMovie::serialize(std::ofstream& out) const {
+	serializeBase(out);
+	theme.serialize(out);
+	out.write((char*)&isBasedOnTrueEvents, sizeof(isBasedOnTrueEvents));
+}
+
+void DocumentaryMovie::deserialize(std::ifstream& in) {
+	deserializeBase(in);
+	theme.deserialize(in);
+	in.read((char*)&isBasedOnTrueEvents, sizeof(isBasedOnTrueEvents));
 }

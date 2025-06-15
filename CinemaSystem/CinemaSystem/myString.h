@@ -30,6 +30,9 @@ public:
     const char& operator[](size_t index) const;
     Vector<myString> getWords() const;
     Vector<myString> getWordsBy(char delim) const;
+    void serialize(std::ofstream& out) const;
+
+    void deserialize(std::ifstream& in);
     friend std::ostream& operator<<(std::ostream& os, const myString& obj);
     friend std::istream& operator>>(std::istream& is, myString& ref);
     friend myString operator+(const myString& lhs, const myString& rhs);

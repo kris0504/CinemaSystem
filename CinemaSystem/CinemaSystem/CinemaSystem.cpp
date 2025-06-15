@@ -3,8 +3,7 @@
 #include "System.h"
 int main()
 {
-	System sys;
-	//sys.loadData();
+	System sys;	
 	std::cout << "Welcome to the Cinema System!" << std::endl;
 	sys.run();
 }

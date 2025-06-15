@@ -11,7 +11,7 @@ DramaMovie::DramaMovie(myString title, int durationMinutes, int releaseYear, myS
 	if (rating < 0.0 || rating > 10.0) {
 		throw std::invalid_argument("Rating must be between 0.0 and 10.0.");
 	}
-	if (releaseYear < 1888 || releaseYear > 2025) { // Assuming movies started in 1888
+	if (releaseYear < 1888 || releaseYear > 2025) { 
 		throw std::invalid_argument("Release year must be between 1888 and 2025.");
 	}
 	if (hallId <= 0) {
@@ -35,4 +35,13 @@ void DramaMovie::printDetails() const
 myString DramaMovie::getType() const
 {
 	return "Drama";
+}
+void DramaMovie::serialize(std::ofstream& out) const {
+	serializeBase(out);
+	out.write((char*)&hasComedyElements, sizeof(hasComedyElements));
+}
+
+void DramaMovie::deserialize(std::ifstream& in) {
+	deserializeBase(in);
+	in.read((char*)&hasComedyElements, sizeof(hasComedyElements));
 }

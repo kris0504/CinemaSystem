@@ -4,7 +4,6 @@
 #include "Hall.h"
 class Movie {
 protected:
-	static size_t nextid; // Unique identifier for the movie
 	size_t id;
     myString title;
     double rating;
@@ -21,8 +20,12 @@ protected:
     myString endTime;
     double price;
 	bool passed;
+	void serializeBase(std::ofstream& out) const;
+	void deserializeBase(std::ifstream& in);
 public:
-	Movie() = default; // Default constructor
+	static size_t nextid;
+
+	Movie() = default; 
     Movie(myString title, int durationMinutes, int releaseYear, myString genre, int hallId,
         myString date, myString startTime, myString endTime,int rows,int cols);
 	myString getTitle() const { return title; }
@@ -32,7 +35,7 @@ public:
 	int getReleaseYear() const { return releaseYear; }
 	myString getGenre() const { return genre; }
 	int getHallId() const { return hallId; }
-	int getId() const { return id; } // Returns the unique identifier for the movie
+	int getId() const { return id; } 
 	myString getDate() const { return date; }
 	myString getStartTime() const { return startTime; }
 	myString getEndTime() const { return endTime; }
@@ -44,15 +47,19 @@ public:
 	void setPrice(double newPrice) { price = newPrice; }
 	void setHallId(int newHallId) { hallId = newHallId; }
     void addRating(double rate);
-	virtual myString getType() const = 0; // Returns the type of the movie (e.g., "Action", "Drama", etc.)
+	virtual myString getType() const = 0; 
     virtual double calculatePrice() const = 0;
     virtual void printDetails() const = 0;
 	void reserveSeat(int row, int col);
 	void releaseSeat(int row, int col);
-	bool isSeatFree(int row, int col) const;
 	void printLayout() const;
+	virtual void serialize(std::ofstream& out) const = 0;
+	virtual void deserialize(std::ifstream& in) = 0;
+	virtual ~Movie() = default;
+
+
 	
-    virtual ~Movie() = default;
+
 };
 
 

@@ -20,6 +20,6 @@ void ListUsersCommand::execute(System& sys, User*& currentUser, const Vector<myS
 
 	std::cout << "List of users:" << std::endl;
 	for (int i = 0; i < users.getSize(); i++) {
-		std::cout << users[i]->getName() << std::endl;
+		std::cout << users[i]->getName() <<" Id: "<<users[i]->getId() << std::endl;
 	}
 }

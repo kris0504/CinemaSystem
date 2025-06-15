@@ -1,6 +1,9 @@
 #include "System.h"
 #include "RegularUser.h"
 #include "Admin.h"
+#include "DramaMovie.h"
+#include "ActionMovie.h"
+#include "DocumentaryMovie.h"
 #include <ctime>
 #include <iomanip>
 #include <sstream>
@@ -8,7 +11,7 @@
 myString getCurrentDate() {
 	time_t now = time(nullptr);
 	tm localTime;
-	// Използваме localtime_s вместо deprecated localtime
+	
 #ifdef _MSC_VER
 	localtime_s(&localTime, &now);
 #else
@@ -19,13 +22,13 @@ myString getCurrentDate() {
 	oss << std::setfill('0')
 		<< std::setw(2) << localTime.tm_mday << '.' << std::setw(2) << (localTime.tm_mon + 1) << '.'
 		<< std::setw(4) << (1900 + localTime.tm_year);
-		
-		
+
+
 
 	return myString(oss.str().c_str());
 }
 
-// Връща текущото време във формат "HH:MM"
+
 myString getCurrentTime() {
 	time_t now = time(nullptr);
 	tm localTime;
@@ -58,6 +61,7 @@ User* System::login(int id, myString password)
 
 
 	if (currentUser->getPassword() == password) {
+
 		checkTickets(currentUser);
 		return currentUser;
 	}
@@ -94,12 +98,13 @@ bool System::buyTicket(int movieId, int row, int col, User* currentUser)
 				std::cout << "Not enough balance to buy ticket." << std::endl;
 				return false;
 			}
-			Ticket ticket(movies[i]->getId(), row, col, movies[i]->getPrice(), getCurrentDate(), getCurrentTime(),movies[i]->getTitle(),movies[i]->getHallId());
-			static_cast<RegularUser*>(currentUser)->getTickets().push_back(ticket);
+
 
 			static_cast<RegularUser*>(currentUser)->addBalance(-movies[i]->getPrice());
 			movies[i]->reserveSeat(row, col);
-			std::cout << "Ticket purchased successfully." << std::endl;
+			Ticket ticket(movies[i]->getId(), row, col, movies[i]->getPrice(), getCurrentDate(), getCurrentTime(), movies[i]->getTitle(), movies[i]->getHallId());
+			static_cast<RegularUser*>(currentUser)->getTickets().push_back(ticket);
+			//std::cout << "Ticket purchased successfully." << std::endl;
 			return true;
 		}
 	}
@@ -137,20 +142,25 @@ bool System::removeMovie(size_t movieId)
 	}
 	if (!movie) return false;
 	for (size_t i = 0; i < users.getSize(); ++i) {
-		User* user = users[i];
+		User*& user = users[i];
 		if (user->isAdminUser()) continue;
 		RegularUser* regularUser = static_cast<RegularUser*>(user);
 
 		for (size_t j = 0; j < regularUser->getHistory().getSize(); j++) {
 			if (regularUser->getHistory()[j] == movie->getTitle()) {
+
 				regularUser->getHistory().remove(j);
+				j--;
 			}
 		}
 		for (size_t j = 0; j < regularUser->getTickets().getSize(); j++) {
 			if (regularUser->getTickets()[j].getMovieId() == movieId) {
+				regularUser->getTickets().remove(j);
+				j--;
 				regularUser->addBalance(movie->getPrice());
 			}
 		}
+		
 	}
 	for (size_t i = 0; i < movies.getSize(); ++i) {
 		if (movies[i]->getId() == movieId) {
@@ -232,7 +242,7 @@ bool System::closeHaul(size_t id)
 
 	for (size_t i = 0; i < users.getSize(); i++)
 	{
-		User* user = users[i];
+		User*& user = users[i];
 		if (user->isAdminUser()) continue;
 		RegularUser* regularUser = static_cast<RegularUser*>(user);
 
@@ -272,7 +282,7 @@ void System::removeUser(User* userToRemove)
 {
 	if (userToRemove->isAdminUser())
 	{
-		std::cout << "Cannot remove admin user." << std::endl;
+		throw std::invalid_argument("Cannot remove admin user.");
 		return;
 	}
 	for (size_t i = 0; i < users.getSize(); ++i) {
@@ -287,13 +297,21 @@ void System::removeUser(User* userToRemove)
 void System::checkTickets(User* user)
 {
 	RegularUser* regularUser = dynamic_cast<RegularUser*>(user);
-	for (size_t i = 0; i < regularUser->getTickets().getSize(); i++)
+	int s = regularUser->getTickets().getSize();
+	for (size_t i = 0; i < s; i++)
 	{
-		if (regularUser->getTickets()[i].getDate() < getCurrentDate())
+		if ((regularUser->getTickets()[i].getDate() < getCurrentDate()||(regularUser->getTickets()[i].getDate() == getCurrentDate()&& regularUser->getTickets()[i].getTime() < getCurrentTime())))
 		{
-			regularUser->getTickets()[i].setPassed(true);
-			regularUser->getHistory().push_back(getMovieNameById(regularUser->getTickets()[i].getMovieId()));
+			//!regularUser->getTickets()[i].isPassed() &&
+			//regularUser->getTickets()[i].setPassed(true);
+			myString movieName = getMovieNameById(regularUser->getTickets()[i].getMovieId());
+			//std::cout << "Adding to history: " << movieName << std::endl;
+			regularUser->getHistory().push_back(movieName);
+			regularUser->getTickets().remove(i);
 
+			//regularUser->getHistory().push_back(getMovieNameById(regularUser->getTickets()[i].getMovieId()));
+			i--;
+			s--;
 		}
 	}
 	for (size_t i = 0; i < movies.getSize(); i++)
@@ -310,14 +328,19 @@ bool System::isHallFree(int hallId, const myString& date, const myString& startT
 		if (movies[i]->getId() == movieId) continue;
 		if (movies[i]->getDate() != date) continue;
 
-		// Проверка за припокриване на времеви интервали
+		
 		if (!(endTime <= movies[i]->getStartTime() || startTime >= movies[i]->getEndTime())) {
-			return false; // Има припокриване
+			return false; 
 		}
 	}
 	return true;
 }
 System::System() {
+	loadFromFile();
+	for (size_t i = 0; i < users.getSize(); i++)
+	{
+		if (users[i]->isAdminUser()) return;
+	}
 	User* admin = new Admin();
 	users.push_back(admin);
 
@@ -330,13 +353,12 @@ bool System::updateMovieHaul(int movieId, int newHallId) {
 			myString start = movies[i]->getStartTime();
 			myString end = movies[i]->getEndTime();
 
-			// Проверка дали филмът вече е минал
 			if (movies[i]->isPassed()) {
 				std::cout << "Movie has already passed. Cannot update hall." << std::endl;
 				return false;
 			}
 
-			// Проверка дали залата е свободна
+	
 			if (!isHallFree(newHallId, date, start, end, movieId)) {
 				std::cout << "New hall is not free at the same time." << std::endl;
 				return false;
@@ -406,8 +428,111 @@ void System::run()
 void System::saveToFile()
 {
 
+	std::ofstream out("data.dat", std::ios::binary);
+	if (!out) return;
+
+
+	out.write((char*)&User::nextid, sizeof(size_t));
+	out.write((char*)&Movie::nextid, sizeof(size_t));
+	out.write((char*)&Hall::nextid, sizeof(size_t));
+
+	size_t hallCount = halls.getSize();
+	out.write((char*)&hallCount, sizeof(hallCount));
+	for (size_t i = 0; i < hallCount; ++i)
+		halls[i].serialize(out);
+
+
+	size_t movieCount = movies.getSize();
+	out.write((char*)&movieCount, sizeof(movieCount));
+	for (size_t i = 0; i < movieCount; ++i) {
+		myString type = movies[i]->getType();
+		type.serialize(out);
+		movies[i]->serialize(out);
+	}
+
+	
+	size_t userCount = users.getSize();
+	out.write((char*)&userCount, sizeof(userCount));
+	for (size_t i = 0; i < userCount; ++i) {
+		myString type = users[i]->isAdminUser() ? "Admin" : "Regular";
+		type.serialize(out);
+		users[i]->serialize(out);
+	}
+
+	out.close();
+
+
 }
 
 void System::loadFromFile()
 {
+
+	std::ifstream in("data.dat", std::ios::binary);
+	if (!in) return;
+
+	in.read((char*)&User::nextid, sizeof(size_t));
+	in.read((char*)&Movie::nextid, sizeof(size_t));
+	in.read((char*)&Hall::nextid, sizeof(size_t));
+
+	
+	size_t hallCount;
+	in.read((char*)&hallCount, sizeof(hallCount));
+	for (size_t i = 0; i < hallCount; ++i) {
+		Hall h;
+		h.deserialize(in);
+		halls.push_back(h);
+	}
+
+	
+	size_t movieCount;
+	in.read((char*)&movieCount, sizeof(movieCount));
+	for (size_t i = 0; i < movieCount; ++i) {
+		myString type;
+		type.deserialize(in);
+		Movie* m = nullptr;
+		if (type == "Drama") m = new DramaMovie();
+		else if (type == "Action") m = new ActionMovie();
+		else if (type == "Documentary") m = new DocumentaryMovie();
+		if (m) {
+			m->deserialize(in);
+			movies.push_back(m);
+		}
+	}
+
+	
+	size_t userCount;
+	in.read((char*)&userCount, sizeof(userCount));
+	for (size_t i = 0; i < userCount; ++i) {
+		myString type;
+		type.deserialize(in);
+		User* u = nullptr;
+		if (type == "Admin") u = new Admin();
+		else if (type == "Regular") u = new RegularUser();
+		if (u) {
+			u->deserialize(in);
+			users.push_back(u);
+		}
+	}
+	
+	in.close();
+
+
+}
+Movie* System::getMovieByName(myString name) {
+	for (size_t i = 0; i < movies.getSize(); ++i) {
+		if (movies[i]->getTitle() == name) {
+			return movies[i];
+		}
+	}
+	throw::std::invalid_argument("Movie with the given name does not exist.");
+	return nullptr;
+}
+Movie* System::getMovieById(size_t id) {
+	for (size_t i = 0; i < movies.getSize(); ++i) {
+		if (movies[i]->getId() == id) {
+			return movies[i];
+		}
+	}
+	throw::std::invalid_argument("Movie with the given ID does not exist.");
+	return nullptr;
 }

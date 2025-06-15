@@ -12,7 +12,7 @@ ActionMovie::ActionMovie(myString title, int durationMinutes, int releaseYear, m
 	if (rating < 0.0 || rating > 10.0) {
 		throw std::invalid_argument("Rating must be between 0.0 and 10.0.");
 	}
-	if (releaseYear < 1888 || releaseYear > 2023) { // Assuming movies started in 1888
+	if (releaseYear < 1888 || releaseYear > 2023) { 
 		throw std::invalid_argument("Release year must be between 1888 and 2023.");
 	}
 	if (hallId <= 0) {
@@ -36,4 +36,13 @@ double ActionMovie::calculatePrice() const
 
 void ActionMovie::printDetails() const
 {
+}
+void ActionMovie::serialize(std::ofstream& out) const {
+	serializeBase(out);
+	out.write((char*)&actionIntensity, sizeof(actionIntensity));
+}
+
+void ActionMovie::deserialize(std::ifstream& in) {
+	deserializeBase(in);
+	in.read((char*)&actionIntensity, sizeof(actionIntensity));
 }
